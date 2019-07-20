@@ -1,0 +1,43 @@
+.container {
+ display: grid;
+ grid-template-columns:minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr);
+ grid-template-rows: minmax(100px, 1fr) minmax(100px, 1fr);
+}
+
+.nav-header {
+  max-width: 105%;
+  margin: -9px -9px 0 -10px;
+  padding-left: 2px;
+}
+
+.nav {
+  max-width: 100%;
+  margin-bottom: 15px;
+}
+
+.map {
+  grid-column: 1/span 1;
+  margin-left: 225px;  
+  margin-top: 20px; 
+}
+
+#gallery {
+  grid-column: 2/span 3;
+  margin-top: 50px;
+  margin-left: 140px;
+}
+
+.corporate-popular {
+  margin-left: 225px;
+  margin-top: 20px;
+  grid-column: 1/span 2;
+}
+
+#reservation {
+  margin-top: 20px;
+  margin-left: 180px;
+  grid-column: 3/span 2;
+}
+
+
+/*  grid-template-columns: minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr) minmax(100px, 1fr); */

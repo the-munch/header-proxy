@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  header-proxy:
+    image: kennyhojinlee/header-proxy:header-proxy
+
+    ports:
+      - '3100:3100'
+
